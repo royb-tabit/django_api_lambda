@@ -22,4 +22,5 @@ urlpatterns = [
 
     # Hello, world!
     path('', views.index, name='index')
+    path('', views.index, name='ping')
 ]
